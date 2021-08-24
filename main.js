@@ -1,5 +1,15 @@
 
 
+
+
+
+
+
+
+
+
+
+
 class humanos{
     
     constructor(arg){
@@ -88,3 +98,29 @@ console.warn("Objetos", humanosObjetos);
     
 // }
 // console.log(obj.saludar());
+
+
+// function saludar({...argObligatoarios}, {...arg}){
+//     Object.defineProperties(arg, argObligatoarios);
+//     for(let [id, value] of Object.entries(arg)){
+//         this[id] = value;
+//     }
+//     console.log(window);
+// }
+// let data = {nombre: 'miguel', apellido: 'castro',edad: 23};
+// let obligatorios = {
+//     "tipo-cedula":{
+//         value:'C.C',
+//         enumerable: true
+//     },
+//     "cedula":{
+//         value:1095951604,
+//         enumerable: true
+//     }
+// }
+
+// const ejecutar = saludar.bind(this, obligatorios,data);
+// ejecutar();
+
+
+
